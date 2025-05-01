@@ -9,9 +9,8 @@ import (
 	"os"
 	"slices"
 
-	"google.golang.org/protobuf/proto"
-
 	"github.com/ollama/ollama/convert/sentencepiece"
+	"google.golang.org/protobuf/proto"
 )
 
 func parseSentencePiece(fsys fs.FS) (*Vocabulary, error) {

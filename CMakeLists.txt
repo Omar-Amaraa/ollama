@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
-
-project(Ollama C CXX)
+# Define WINVER and _WIN32_WINNT for Windows 11 compatibility
+add_definitions(-DWINVER=0x0A00)  # Define WINVER for Windows 10/11
+add_definitions(-D_WIN32_WINNT=0x0A00)  # Define _WIN32_WINNT for Windows 10/11
 
 include(CheckLanguage)
 

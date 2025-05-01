@@ -1,0 +1,1 @@
+-IC:/Users/omara/ollama/ml/backend/ggml/ggml/src -IC:/Users/omara/ollama/ml/backend/ggml/ggml/src/include -I"C:/Users/omara/ollama/ml/backend/ggml/ggml/src/ggml-cpu" -I"C:/Users/omara/ollama/ml/backend/ggml/ggml/src/ggml-cpu/amx" -IC:/Users/omara/ollama/ml/backend/ggml/ggml/src/. -IC:/Users/omara/ollama/ml/backend/ggml/ggml/src/../include

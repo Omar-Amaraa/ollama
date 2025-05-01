@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\ggml-base.dir/objects.a
+C:\TDM-GCC-64\bin\ar.exe qc CMakeFiles\ggml-base.dir/objects.a @CMakeFiles\ggml-base.dir\objects1.rsp
+C:\TDM-GCC-64\bin\c++.exe -O3 -DNDEBUG -shared -o ..\..\..\..\..\lib\ollama\libggml-base.dll -Wl,--out-implib,libggml-base.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\ggml-base.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\ggml-base.dir\linkLibs.rsp

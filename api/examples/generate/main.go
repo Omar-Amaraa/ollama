@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/Omar-Amaraa/ollama/tree/main/convert"
+
 	"github.com/ollama/ollama/api"
 )
 
@@ -23,15 +25,23 @@ func main() {
 	}
 
 	ctx := context.Background()
+
+	// ------------------------------------------------------------
+	// Callback qui filtre la réponse avant de l’afficher
+	// ------------------------------------------------------------
 	respFunc := func(resp api.GenerateResponse) error {
-		// Only print the response here; GenerateResponse has a number of other
-		// interesting fields you want to examine.
+		// Vérifie d’abord si le texte contient un mot banni
+		if convert.IsUnsafe(resp.Response) { // ← ajout
+			return fmt.Errorf("unsafe content detected") // ← ajout
+		}
+
+		// Si tout est OK, on affiche
 		fmt.Println(resp.Response)
 		return nil
 	}
 
-	err = client.Generate(ctx, req, respFunc)
-	if err != nil {
+	// L’appel Generate reste inchangé : le filtrage se fait dans respFunc
+	if err := client.Generate(ctx, req, respFunc); err != nil {
 		log.Fatal(err)
 	}
 }

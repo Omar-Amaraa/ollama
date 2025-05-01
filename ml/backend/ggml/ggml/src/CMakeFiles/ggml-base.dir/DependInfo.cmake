@@ -1,0 +1,28 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/omara/ollama/ml/backend/ggml/ggml/src/ggml-alloc.c" "ml/backend/ggml/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.obj" "gcc" "ml/backend/ggml/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.obj.d"
+  "C:/Users/omara/ollama/ml/backend/ggml/ggml/src/ggml-quants.c" "ml/backend/ggml/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.obj" "gcc" "ml/backend/ggml/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.obj.d"
+  "C:/Users/omara/ollama/ml/backend/ggml/ggml/src/ggml.c" "ml/backend/ggml/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.obj" "gcc" "ml/backend/ggml/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.obj.d"
+  "C:/Users/omara/ollama/ml/backend/ggml/ggml/src/ggml-backend.cpp" "ml/backend/ggml/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.obj" "gcc" "ml/backend/ggml/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.obj.d"
+  "C:/Users/omara/ollama/ml/backend/ggml/ggml/src/ggml-opt.cpp" "ml/backend/ggml/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.obj" "gcc" "ml/backend/ggml/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.obj.d"
+  "C:/Users/omara/ollama/ml/backend/ggml/ggml/src/ggml-threading.cpp" "ml/backend/ggml/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.obj" "gcc" "ml/backend/ggml/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.obj.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
